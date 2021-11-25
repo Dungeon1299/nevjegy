@@ -1,0 +1,74 @@
+
+*{
+    
+    color: white;
+
+}
+
+body {
+    height: 90vh;
+  display: flex;
+  align-items: center;
+  background: url('assets/photo-1475274047050-1d0c0975c63e.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+img.profile {
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+  transition: all 0.5s ease-in-out;
+    float: left;
+    animation: rotation 50s infinite linear;
+
+
+
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+img.bike{
+      transition: all 0.5s ease-in-out;
+
+}
+img.bike:hover{
+      transform: scale(1.1);
+
+    
+}
+.disc{
+    display: flex;
+  justify-content: space-between;
+    font-size: 305%;
+    float: right;
+    max-width: 100%;
+    
+}
+p{
+    font-family: "Lucida Handwriting"
+
+}
+
+ul.socials{
+      list-style-type: none;
+
+
+}
+
+h2{
+    font-family:sans-serif
+}
+.name-headline{
+      line-height: 80%;
+
+}
+span{
+    font-family:monospace;
+}
